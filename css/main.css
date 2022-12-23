@@ -1,0 +1,18 @@
+/*  default font size of any element is 16px */
+/* h1,h2,h3,h4,h5,h6 and small element are not included */
+
+/* html {
+  font-size: 16px;
+} */
+/* 1em == 16px  emphasis*/
+/* 0.5em === 8px */
+/* 0.25em === 4px */
+/* 0.75em === 12px */
+
+/* rem ==>  root emphasis*/
+/* 1rem ==> 16px */
+
+/* mobile ==> html { font-size:24px} */
+button {
+  background-color: green;
+}

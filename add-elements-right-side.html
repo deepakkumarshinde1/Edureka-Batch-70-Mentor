@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      div {
+        height: 150px;
+        width: 200px;
+      }
+      .float-class {
+        background-color: green;
+        float: right;
+      }
+      .flex-parent {
+        clear: both;
+        width: 100%;
+        background-color: lightblue;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .flex-class {
+        background-color: red;
+      }
+      .absolute-class {
+        background-color: magenta;
+        position: absolute;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="float-class">Div-1</div>
+    <div class="flex-parent">
+      <div class="flex-class">Div-1</div>
+    </div>
+    <div class="absolute-class">Div-1</div>
+  </body>
+</html>
+<!-- bootstrap 4 needs jQuery to run bootstrap.js code -->
+<!-- Bootstrap 5 don't need jQuery bootstrap.js code-->
+<!-- BS4 m-l m-r -->
+<!-- BS5 m-s m-e -->

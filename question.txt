@@ -1,0 +1,151 @@
+# What is a javascript ? 
+    # Scripting Language
+    # Its is use to create user interaction in browser 
+    # We can also create app like
+        # mobile
+        # desktop 
+        # web app
+        # server app
+    # Javascript Uses Interpreter to run a program
+    # JS Engine is used to run javascript code
+
+# When was ES6 Version Introduced ?
+    # 2015
+
+# Is JS Single Thread Or Multithread ? 
+    # Single Thread
+
+# Is JS is Sync or Async By Default ?
+    # Sync in nature.
+
+# What is variables ?
+    # To store a data at particular memory location 
+
+# Which type of memory to store variables & function in JS
+    # Heap Memory 
+
+# What is difference var & let keyword ?
+    # let is block scope
+    # we can't do re-init of variable in let
+
+# What is block scope ?
+    => A scope where declared variables can't be access 
+        on nearest function definition or a instance
+
+# Do Block Scope and Local Scope are same ?
+    => Block Scope and Local Scope Not Save
+
+        var a = 10; // global 
+        var b = 10; // global 
+
+        function add(){
+            var result = a + b;// result => local variables
+            for(let index = 0;index <10 ; index++){
+                console.log(loop);
+                index => block scope
+            }
+            console.log(index); //10, null , undefined , error
+        }
+
+# What is a data type ?
+    => Datatype defined type of data to opreate 
+    => data can of following type
+        👍 Number
+        👍 String
+        👍 Boolean
+        👍 Undefined
+        👍 Object
+            🥇 Null
+            🥇 Array
+            🥇 JS Object
+
+# What is a function ?
+    => Function is block of code which use to perform a specific task again and again.
+
+# Types of functions in javascript?
+    => function declaration 
+    => function expression    
+    => Arrow function 
+    => Callback function 
+    => IIFE (Immediate Invoke Function Expression)
+
+# What is a DOM ?
+    => Document object model
+    => It's t modify HTML from JS i.e manipulation
+
+# Which Object is use to handel DOM operation ?
+    => document
+
+# what is a difference between document and window object ?
+    => window can handel BOM i.e browser object model.
+    => window is a global object.
+    => under window object we can handle 
+        => location
+        => history
+        => storage
+        => document
+        => cookies
+    => document comes under window object only.
+    => document can handel DOM => Document Object model
+    => document is use for HTML manipulation.
+
+# What is a Array ? 
+    => Array is a collection of different data types.
+    => [1,'a',true,null,function(){},{},[1,2,3]]
+    => 1 is value , key is 0
+
+# Where array index starts ?
+    => 0
+    => index is auto gen.
+
+# What is a JS Object or {} ?
+    => Collection of key value pair.
+    => key are user defined 
+    
+# Which are the methods to add data in an array ?
+    => var array = []
+    => push() , unshift(), splice()
+
+# Which are the methods to delete data in an array ?
+    => pop(), splice() , shift()
+
+# Which are the methods to update data in an array ?
+    => splice()
+
+# Which are the methods to searching a data in an array ?
+    => find() , filter() , findIndex()
+
+# Which are the methods to cut a array in 2 or more parts ?
+    => slice()
+
+# Which are the methods to convert array to string ?
+    => join()
+
+# Which are the methods to convert string to array ?
+    => split()
+
+# Which are the methods to convert {} to [] ?
+    => Object.entries({})
+
+# What is a difference sync and async code ?
+    Sync 
+        => Code runs in sequence
+        => Until a resource is not free next task will not run
+        => code runs form top to bottom 
+
+    Async
+        => Code runs in Non Blocking States.
+        => All the functions are handel by event queue of "event loop"
+        => A code is trigger as event occurs 
+        => That is why there not proper sequence of execution
+        => eg. setTimeout(), setInterval(), Promise(), async , fetch() , xhr(), DOM
+
+
+# What is a promise ?
+    => Promise executes async operation
+    => Promise handel rejections i.e exceptions 
+    => OnSuccess The promise is resolve
+    => OnFailure The Promise is rejected 
+    => Multi Promise Rejection can handel at once place only.
+    
+     

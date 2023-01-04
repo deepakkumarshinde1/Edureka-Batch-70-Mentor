@@ -1,0 +1,29 @@
+/* desktop view 1000px */
+body {
+  background-color: red;
+}
+/* width:800px  => fix => exact 800px */
+/* min-width:800px => minimum 800px and max can any value */
+/* max-width:800px => maximum 800px and min  can any value*/
+
+/* 100 marks => passing are 35 */
+/* laptop view  max-width:800px */
+@media screen and (max-width: 900px) {
+  body {
+    background-color: green;
+  }
+}
+/* tablet view max-width:750px */
+
+@media screen and (max-width: 750px) {
+  body {
+    background-color: magenta;
+  }
+}
+/* mobile view max-width:6000px*/
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+}
